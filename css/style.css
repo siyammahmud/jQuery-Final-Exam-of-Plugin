@@ -1,0 +1,36 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	background-color: #3F5185;
+	color: #fff;
+}
+
+.identity img{
+	width: 280px;
+	height: 180px;
+	margin-left: 100px;
+}
+
+.identity p {
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+.identity h1 {
+	color: white;
+}
+
+.plugin button{
+	margin: 5px;
+	color: black;
+}
+
+.plugin button:hover {
+	background: red;
+	color: white;
+}

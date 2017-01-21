@@ -1,0 +1,106 @@
+
+/******* header *********/
+.top-header{    padding: 10px 0;background: #f8f8f8; display:none }
+
+.top-header-left ul {
+    text-align: center;
+}
+.top-header-left ul li{font-size: 13px;}
+.top-header-left ul li i{
+ }
+.top-header-left{}
+.top-header-left ul li .dropdown{display: inline-block;}
+.btn-language{
+    background:transparent;
+    text-transform: capitalize;
+    padding: 0 12px;
+    padding-left: 0;
+}
+
+.signup{text-align: right;}
+.signup a{}
+.signup i{}
+.signup span{}
+
+.social{
+    text-align: center;}
+.social ul{}
+.social ul li{}
+.social ul li a{
+
+    width: 18px;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background: #dadada;
+    color: #fff;
+    border-radius: 3px;
+}
+.social ul li a:hover{background: #e5493a;}
+
+header{    padding: 1em 0;}
+.navbar-brand{padding: 0}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #363636;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 100;   
+    padding: 10px;
+}
+@media (min-width: 768px){
+.navbar-custom {
+    background: white !important;
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .2s ease-in-out,padding .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out,padding .2s ease-in-out;
+    transition: background .2s ease-in-out,padding .2s ease-in-out;
+}}
+ .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #e5493a;
+    background-color: rgba(231, 231, 231, 0);
+}
+.navbar-default .navbar-nav>li.active::after {
+    content: "";
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+.navbar-default .navbar-nav>li::after {
+    background: #e5493a none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    visibility: hidden;
+    width: 0;
+}
+.menutop {
+    position: fixed;
+    background: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(149, 149, 149, 0.28);
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
